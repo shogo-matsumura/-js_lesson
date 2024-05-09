@@ -8,8 +8,5 @@ $(function () {
         } else if (inputValue === "3") {
             $("#box").css("background-color", "blue"); // 青に変更
         }
-        else {
-            $("#box").css("background-color", "gold"); // それ以外はゴールドに変更
-        }
     });
 });

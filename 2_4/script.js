@@ -5,8 +5,6 @@ $(function () {
             alert("1");
         } else if (inputValue === "2") {
             alert("2");
-        } else {
-            alert("???");
         }
     });
 });

@@ -1,9 +1,7 @@
 // 初期のボタンの色を設定
 let currentButtonColor = 'red';
-
 // 3つのボタンのIDを格納した配列を作成
 const buttonIds = ['button1', 'button2', 'button3'];
-
 // 各ボタンにクリックイベントを追加
 buttonIds.forEach(buttonId => {
     document.getElementById(buttonId).addEventListener('click', function () {
